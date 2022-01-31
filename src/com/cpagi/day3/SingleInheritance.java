@@ -11,6 +11,7 @@ package com.cpagi.day3;
  class A
 {
 
+//git testing 
 public int a=10;	
 
 public void printA()
