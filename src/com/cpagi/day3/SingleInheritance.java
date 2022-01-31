@@ -12,6 +12,8 @@ package com.cpagi.day3;
 {
 
 //git testing 
+	 
+	 //git new code
 public int a=10;	
 
 public void printA()
