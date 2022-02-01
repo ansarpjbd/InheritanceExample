@@ -7,11 +7,11 @@ package com.cpagi.day3;
 //those method which does not have the body or just the defination
 
 //by default class is also abstract
- interface Parent1
+abstract interface Parent1
 {
 	//by default it is abstract only
 	 //unimplemented method
- public void printParent1();
+abstract public void printParent1();
 }
 class Parent2
 {
@@ -33,7 +33,8 @@ class Child3 extends Parent2 implements Parent1
 	{
 		System.out.println("Child class");
 	}
-
+	//coming from the base child 
+    @Override
 	public void printParent1()
 	{
 		System.out.println("this is method from parent 1");

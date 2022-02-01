@@ -1,6 +1,6 @@
 package com.cpagi.day3;
 
-//100 of abstraction
+//interface 100 of abstraction
 
 //Abstract class
 //abstract method and non abstract method also
@@ -16,7 +16,7 @@ abstract  class Mobile
 	final int price=1000;
 	//abstract method
 	abstract public void calling();
-   abstract public void sendSMS();
+    abstract public void sendSMS();
 	
 	//non abstract method
 	public void chargingUSB()
@@ -30,8 +30,6 @@ abstract  class Mobile
 class Google extends Mobile
 {
 
-	
-	
 	@Override
 	public void calling() {
 		// TODO Auto-generated method stub
